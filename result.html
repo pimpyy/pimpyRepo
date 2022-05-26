@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Registration Form</title>
+    <style>
+        *{
+            background-color: aqua;
+        }
+        .header{
+            border-style: double;
+            text-align: center;
+            margin: 3%;
+        }
+        .forms{
+            margin-left: 3%;
+        }
+        #box{
+            background-color: rgb(235, 255, 105);
+            border: 1px solid rgb(202, 202, 202);
+        }
+        span{
+            margin-left: 4%;
+        }
+        label{
+            width: 150px;
+            display: inline-block;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+   <!--heading part-->
+   <div class="header">
+       <h1>Registration Form</h1>
+   </div>
+
+   <div class="forms">
+    <forms>
+            
+        <label>Name:</label>
+        <span><input id="box" type="text" placeholder="Enter full name" size="35"/><br><br></span>
+        
+        <label>Father's name:</label>
+       <span><input id="box" type="text" size="35"/><br><br> 
+    
+        <label>Mother's name:</label>
+        <span><input id="box" type="text" size="35"/><br><br>
+
+        <label>Phone Number:</label>
+        <span><input type="text" placeholder="09xx xxx xxxx" id="box" size="35"/><br><br>
+
+        <label>Email:</label>
+        <span><input type="text" placeholder="sample@example.com" id="box" size="35"/><br><br>
+
+        <label>Gender:</label><span>
+        <input type="radio"/>Female
+        <input type="radio"/>Male
+        <input type="radio"/>Other<br><br></span>
+
+        <label for="date">Date of Birth:</label> 
+        <span><input type="date" id="box"/><br><br> 
+    
+        <label for="date">Address:</label> 
+        <span><input type="address" placeholder="Street:-       House:-         Road:-" id="box" size="50"/><br><br>
+
+        <label id="blood">Blood Group:</label>
+        <span><select id="box">
+            <option>Select</option>
+            <option>A</option>
+            <option>B</option>
+            <option>AB</option>
+            <option>O</option>
+        </select><br><br>
+
+        <label>Department:</label>
+        <span>
+            <input type="radio"/>CSE
+            <input type="radio"/>EEE
+            <input type="radio"/>BBA<br><br>
+
+        <label>Course:</label>
+        <span>
+            <input type="checkbox">C
+            <input type="checkbox">C++
+            <input type="checkbox">Java
+            <input type="checkbox">AI
+            <input type="checkbox">Machine Learning
+            <input type="checkbox">Robotics<br><br>
+        
+        <label>Photo:</label>
+        <span><input type="file" name="file" id="file"accept="documents/* multiple">
+        <br><br><br><br>
+
+        <a href="#">Submit</a>
+        <input type="reset" id="box">
+    
+    </forms>
+   </div> 
+
+</body>
+</html>
